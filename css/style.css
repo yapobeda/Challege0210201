@@ -1,0 +1,229 @@
+
+/* ----------RESPONSIVE---------- */
+
+/*Pour tous les appareils équipés d'écrans et dont la taille est inférieure à 480px*/
+@media screen and (max-width: 480px){
+    /* FORMULAIRE D'INSCRIPTION */
+  body{
+      background-color: orangered;
+      margin: 70px 0px;
+  }
+      .divider{
+        width: 100px;
+        height: 2px;
+        background-color: #ffa500;
+        margin: 0 auto;
+        margin-top: 90px;
+    }
+    .container-inscription, .container-connexion{
+        margin: 0 auto;
+        width: 80vw;
+    }
+    .heading{
+        text-align: center;
+        margin-bottom: 50px;
+    }
+    h2{
+        text-transform: uppercase;
+        font-weight: bold;
+        color:#fff;
+    }
+    #inscription-form, #connexion-form{
+        font-size: 20px;
+        background-color: #fff;
+        padding: 50px;
+        border-radius: 10px;
+        text-align: center;
+    }
+    .text-smal-color{
+       font-style: italic;
+       font-size: 18px;
+       color: #d82c2e;
+    }
+    .pos{
+        margin-bottom: 15px;
+        margin-top: 15px;
+    }
+    .btn{
+        background-color: #0f9d58;
+        color: #fff;
+        border: none;
+        border-radius: 15px;
+        margin-top: 15px;
+        padding: 5px;
+        margin-bottom: 15px;
+    }
+    .text{
+        text-align: center;
+    }
+}
+
+/* Pour lees appareils équipés d'écrans et dont la taille est compris entre 481 et 768 */
+@media screen and (min-width: 481px) and (max-width: 768px){
+    /* FORMULAIRE D'INSCRIPTION */
+    body{
+        background-color: blueviolet;
+        margin: 70px 0px;
+    }
+    .divider{
+        width: 100px;
+        height: 2px;
+        background-color: #ffa500;
+        margin: 0 auto;
+        margin-top: 90px;
+    }
+    .container-inscription, .container-connexion{
+        margin: 0 auto;
+        width: 80vw;
+    }
+    .heading{
+        text-align: center;
+        margin-bottom: 50px;
+    }
+    h2{
+        text-transform: uppercase;
+        font-weight: bold;
+        color:#fff;
+    }
+    #inscription-form, #connexion-form{
+        font-size: 20px;
+        background-color: #fff;
+        padding: 50px;
+        border-radius: 10px;
+        text-align: center;
+    }
+    .text-smal-color{
+        font-style: italic;
+       font-size: 18px;
+       color: #d82c2e;
+    }
+    .pos{
+        margin-bottom: 7.5px;
+        margin-top: 7.5px;
+    }
+    .btn{
+        background-color: #0f9d58;
+        color: #fff;
+        border: none;
+        border-radius: 15px;
+        margin-top: 15px;
+        padding: 5px;
+        margin-bottom: 15px;
+    }
+    .text{
+        text-align: center;
+    }
+}
+
+/* Pour lees appareils équipés d'écrans et dont la taille est compris entre 769 et 1279 */
+@media screen and (min-width: 769px) and (max-width: 1279px){
+    /* FORMULAIRE D'INSCRIPTION */
+    body{
+        background-color: green;
+        margin: 70px 0px;
+    }
+    .divider{
+        width: 100px;
+        height: 2px;
+        background-color: #ffa500;
+        margin: 0 auto;
+        margin-top: 90px;
+    }
+    .container-inscription, .container-connexion{
+        margin: 0 auto;
+        width: 80vw;
+    }
+    .heading{
+        text-align: center;
+        margin-bottom: 50px;
+    }
+    h2{
+        text-transform: uppercase;
+        color:#fff;
+    }
+    #inscription-form, #connexion-form{
+        font-size: 20px;
+        background-color: #fff;
+        padding: 50px;
+        border-radius: 10px;
+        text-align: center;
+        }   
+        .text-smal-color{
+            font-style: italic;
+       font-size: 18px;
+       color: #d82c2e;
+        }
+        .pos{
+        margin-bottom: 7.5px;
+        margin-top: 7.5px;
+    }
+    .btn{
+        background-color: #0f9d58;
+        color: #fff;
+        border: none;
+        border-radius: 15px;
+        margin-top: 15px;
+        padding: 5px;
+        margin-bottom: 15px;
+    }
+    .text{
+        text-align: center;
+    }
+}
+
+/*Pour tous les appareils équipés d'écrans et dont la taille est superieur à 1280px*/
+@media screen and (min-width: 1280px){ 
+    /* FORMULAIRE D'INSCRIPTION */
+    body{
+        background-color: #0069d6;
+        margin: 70px 0px;
+    }
+    .divider{
+        width: 100px;
+        height: 2px;
+        background-color: #ffa500;
+        margin: 0 auto;
+        margin-top: 180px;
+    }
+    .container-inscription, .container-connexion{
+        margin: 0 auto;
+        width: 80vw;
+    }
+    .heading{
+        text-align: center;
+        margin-bottom: 100px;
+    }
+    h2{
+        text-transform: uppercase;
+        font-weight: bold;
+        color:#fff;
+    }
+    #inscription-form, #connexion-form{
+        font-size: 20px;
+        background-color: #fff;
+        padding: 50px;
+        border-radius: 10px;
+        text-align: center;
+    }
+    .text-smal-color{
+        font-style: italic;
+        font-size: 18px;
+        color: #d82c2e;
+     }
+    .pos{
+        margin-bottom: 7.5px;
+        margin-top: 7.5px;
+    }
+    .btn{
+        background-color: #0f9d58;
+        color: #fff;
+        border: none;
+        border-radius: 15px;
+        margin-top: 15px;
+        padding: 5px;
+        margin-bottom: 15px;
+    }
+    .text{
+        text-align: center;
+    }
+}
